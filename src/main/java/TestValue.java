@@ -1,9 +1,10 @@
 public class TestValue {
     public static void main(String[] args) {
         String value= "test build";
-        String obj = new String();
+      //  String obj = new String();
         getName();
         System.out.println("value");
+
 
 
     }
@@ -11,5 +12,9 @@ public class TestValue {
     public static String getName() {
         String value = "generate name";
         return value;
+    }
+
+    public static void setName(String name) {
+        System.out.println("name should be"+ name);
     }
 }
