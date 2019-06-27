@@ -3,6 +3,8 @@ public class TestValue {
         String value= "test build";
       //  String obj = new String();
         getName();
+        int x=0;
+        int y = x;
         System.out.println("value");
 
 
