@@ -1,3 +1,7 @@
-README file
+Travis Build test project
 
-[![Build Status](https://travis-ci.com/hasuniea/travisBuild.svg?branch=master)](https://travis-ci.com/hasuniea/travisBuild)
+Travis build status
+
+ | Branch | Build Status |
+ | :------------ |:-------------
+ | master | [![Build Status](https://travis-ci.com/hasuniea/travisBuild.svg?branch=master)](https://travis-ci.com/hasuniea/travisBuild)
