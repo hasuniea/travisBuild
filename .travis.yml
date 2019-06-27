@@ -1,8 +1,5 @@
 language: java
 os: osx
 
-before_install:
-  - brew install git-lfs
-
-before_script:
-  - git lfs pull
+script:
+  - mvn install -DskipTests=true -Dmaven.javadoc.skip=true -B -V
