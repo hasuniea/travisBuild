@@ -1,5 +1,5 @@
 language: java
 os: osx
 
-script:
-  - mvn clean install -DskipTests=true
+install: true
+script: ./mvnw clean install
